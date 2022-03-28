@@ -26,7 +26,7 @@ namespace pizza_mama
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<DataContext>(options => 
-                options.UseSqlite(Configuration.GetConnectionString("Default Connexion")));
+                options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
             services.AddRazorPages();
         }
 
