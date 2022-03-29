@@ -6,11 +6,17 @@
     background-size: cover;
 }
 
-li{
-    color:white
+h1{
+    color:white;
+    background-color:#DD7835;
+
 }
 
 #small_logo{
     margin-left: 35px;
-    margin-bottom: 35px;
+    margin-top: 20px;
+}
+
+li {
+    color: white;
 }
