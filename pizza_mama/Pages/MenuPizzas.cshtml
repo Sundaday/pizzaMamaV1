@@ -13,10 +13,8 @@
             @foreach(var pizza in Model.Pizza)
             {
                 <li>
-                    @pizza.name
-                    @pizza.price
-                    @pizza.vegan
-                </li>    
+                    @pizza.name - @pizza.price € - @pizza.vegan - @pizza.ingredients
+                </li>
             }
         </ul>
         <a asp-page="Index">Home</a>
