@@ -2,6 +2,24 @@
 @model pizza_mama.Pages.MenuPizzasModel
 @{
 }
-<h1>
-    Our Card
-</h1>  
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Our Card</title>
+    </head>
+    <body>
+        <h1>Our Pizzas</h1>
+        <ul>
+            @*@foreach(var pizza in Model.Pizza)
+            {
+                <li>
+                    @pizza.name
+                </li>    
+            }*@
+        </ul>
+        <a asp-page="Index">Home</a>
+    </body>
+</html>
+
+                    
+
