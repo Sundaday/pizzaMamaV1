@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ymwUuDE2Y6T2oBbRtiC9BVkqp/gQLqtOGzSR5y3pz+0=",
+  "Hash": "cH1SRYIxwLZr/1hqQr93/wmu0scrmov5/Zyr2VOr66U=",
   "Source": "pizza_mama",
   "BasePath": "_content/pizza_mama",
   "Mode": "Default",
@@ -32,6 +32,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\Dev\\BACKEND\\C#\\pizza_mama\\pizza_mama\\wwwroot\\css\\style.css",
+      "SourceId": "pizza_mama",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dev\\BACKEND\\C#\\pizza_mama\\pizza_mama\\wwwroot\\",
+      "BasePath": "_content/pizza_mama",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
       "Identity": "D:\\Dev\\BACKEND\\C#\\pizza_mama\\pizza_mama\\wwwroot\\favicon.ico",
