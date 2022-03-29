@@ -5,17 +5,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Our Card</title>
+        <title>Menu</title>
     </head>
     <body>
         <h1>Our Pizzas</h1>
         <ul>
-            @*@foreach(var pizza in Model.Pizza)
+            @foreach(var pizza in Model.Pizza)
             {
                 <li>
                     @pizza.name
+                    @pizza.price
+                    @pizza.vegan
                 </li>    
-            }*@
+            }
         </ul>
         <a asp-page="Index">Home</a>
     </body>
