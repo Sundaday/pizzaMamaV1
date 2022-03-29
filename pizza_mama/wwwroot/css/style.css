@@ -1,3 +1,16 @@
-﻿li {
-    color:orange
+﻿body {
+    background: url("/image/menu_background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+li{
+    color:white
+}
+
+#small_logo{
+    margin-left: 35px;
+    margin-bottom: 35px;
 }
