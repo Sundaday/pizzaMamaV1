@@ -8,7 +8,9 @@
 
 @if(Model.DisplayInvalidAccountMessage)
 {
-    <p>Error, login or password wrong</p>
+    <div class="alert alert-danger" role="alert">
+        Error, login or password wrong
+    </div>
 }
 
 <form method="post">
