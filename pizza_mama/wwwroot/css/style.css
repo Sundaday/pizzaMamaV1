@@ -8,10 +8,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-family: Arial;
     margin: 0;
-    color:white;
-    background-attachment:scroll; 
 }
 
 .main_body {
