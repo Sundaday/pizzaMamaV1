@@ -22,7 +22,7 @@ namespace pizza_mama.Controllers
         [Route("GetPizzas")]
         public IActionResult GetPizza()
         {
-            var pizza = new Pizza();
+            var pizza = new Pizza() { name = "pizza test", price = 0, vegan = false, ingredients = "test, test, test, test, test, test" };
 
             return Json(pizza);
         }
