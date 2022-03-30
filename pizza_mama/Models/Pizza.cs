@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text.Json.Serialization;
 
@@ -17,6 +18,7 @@ namespace pizza_mama.Models
         [JsonIgnore]
         [Display(Name = "Ingredients")]
         public string ingredients { get; set; }
+        [NotMapped]
         [JsonPropertyName("ingredients")]
         public string[] listIngredients
         {
