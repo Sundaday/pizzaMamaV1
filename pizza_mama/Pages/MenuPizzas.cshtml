@@ -31,6 +31,10 @@
                     <span class="list_menu_ingre">
                         @pizza.ingredients
                     </span>
+                @if (@pizza.vegan)
+                {
+                    <span class="list_menu_vegan">Vegan</span>
+                }
                 </div>
             }
         </div>

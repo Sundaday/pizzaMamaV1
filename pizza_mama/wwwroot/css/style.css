@@ -53,3 +53,14 @@
     font-size: 14px;
     margin-top:5px
 }
+
+.list_menu_vegan {
+    display: inline-block;
+    color:black;
+    margin-top: 7px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #DD7835;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
