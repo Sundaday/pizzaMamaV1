@@ -10,15 +10,15 @@
         <title>Menu</title>
         <link rel="stylesheet" href="~/css/style.css" />
     </head>
-    <body>
+    <body class="body_menu">
         <a asp-page="Index">
-            <img src="~/image/small_logo.png" id="small_logo"  />
+            <img src="~/image/small_logo.png" class="small_logo"  />
         </a>
-        <h1>Pizzas</h1>
+        <h1 class="h1_menu"> Pizzas</h1>
         <ul>
             @foreach(var pizza in Model.Pizza)
             {
-                <li>
+                <li class="list_menu">
                     @pizza.name - @pizza.price € - @pizza.vegan - @pizza.ingredients
                 </li>
             }

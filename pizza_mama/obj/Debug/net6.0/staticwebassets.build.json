@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ACHNN5tF9lql8e+9HFsUbGa/CBND9Bj/VNLzUezqf10=",
+  "Hash": "Hwg/5w+Hi761Z2YteG2MB4qhJWO8nw1gz/m6epeUDGE=",
   "Source": "pizza_mama",
   "BasePath": "_content/pizza_mama",
   "Mode": "Default",
@@ -66,23 +66,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "D:\\Dev\\BACKEND\\C#\\pizza_mama\\pizza_mama\\wwwroot\\image\\flock_tete_de_bite_presidentielle.jpg",
-      "SourceId": "pizza_mama",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Dev\\BACKEND\\C#\\pizza_mama\\pizza_mama\\wwwroot\\",
-      "BasePath": "_content/pizza_mama",
-      "RelativePath": "image/flock_tete_de_bite_presidentielle.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\flock_tete_de_bite_presidentielle.jpg"
     },
     {
       "Identity": "D:\\Dev\\BACKEND\\C#\\pizza_mama\\pizza_mama\\wwwroot\\image\\main_background.jpg",
