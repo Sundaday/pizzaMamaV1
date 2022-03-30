@@ -1,8 +1,10 @@
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Hosting;
 using System.Collections.Generic;
 using System.Security.Claims;
 using System.Threading.Tasks;
@@ -12,11 +14,16 @@ namespace pizza_mama.Pages.Admin
     public class IndexModel : PageModel
     {
         public bool DisplayInvalidAccountMessage = false;
+        public bool isDevMode = false;
 
         IConfiguration configuration;
-        public IndexModel(IConfiguration configuration)
+        public IndexModel(IConfiguration configuration, IWebHostEnvironment env)
         {
             this.configuration = configuration;
+            if (env.IsDevelopment())
+            {
+                isDevMode = true;
+            }
         }
 
         public IActionResult OnGet(){

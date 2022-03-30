@@ -2,6 +2,10 @@
 @model pizza_mama.Pages.Admin.IndexModel
 @{
 }
+@if (Model.isDevMode)
+{
+    <p>MODE DEV</p>
+}
 
 <h1>Enter your login & password</h1>
 <br />
