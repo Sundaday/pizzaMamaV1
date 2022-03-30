@@ -14,15 +14,26 @@
         <a asp-page="Index">
             <img src="~/image/small_logo.png" class="small_logo"  />
         </a>
-        <h1 class="h1_menu"> Pizzas</h1>
-        <ul>
+        <div class="div_menu_title">
+            <h1 class="h1_menu_title">The Menu</h1>
+        </div>
+        <div class="list_menu">
             @foreach(var pizza in Model.Pizza)
             {
-                <li class="list_menu">
-                    @pizza.name - @pizza.price € - @pizza.vegan - @pizza.ingredients
-                </li>
+                <div class="list_menu_item">
+                    <span class="list_menu_name">
+                        @pizza.name
+                    </span>
+                    <span class="list_menu_price">
+                        @pizza.price €
+                    </span>
+                    <br/>
+                    <span class="list_menu_ingre">
+                        @pizza.ingredients
+                    </span>
+                </div>
             }
-        </ul>
+        </div>
     </body>
 </html>
 

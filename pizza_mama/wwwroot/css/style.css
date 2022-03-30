@@ -10,14 +10,14 @@
     background-size: cover;
     font-family: Arial;
     margin: 0;
+    color:white;
 }
 
-.div_menu {
+.div_menu_title {
     margin-top:25px;
-    margin-left:35px;
-    margin-bottom:50px;
+    margin-bottom:35px;
 }
-.h1_menu {
+.h1_menu_title {
     color: white;
     background-color: #DD7835;
     display: inline;
@@ -30,5 +30,26 @@
 }
 
 .list_menu {
-    color: white;
+    margin-left: 50px;
+}
+
+.list_menu_item {
+    font-size: 20px;
+    margin: 30px 0px;
+}
+
+.list_menu_name {
+    font-weight: bold;
+}
+
+.list_menu_price {
+    margin-left: 8px;
+    color:coral;
+}
+
+.list_menu_ingre {
+    display:block;
+    color: #C8C8C8;
+    font-size: 14px;
+    margin-top:5px
 }
