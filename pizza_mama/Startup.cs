@@ -48,7 +48,8 @@ namespace pizza_mama
             CultureInfo.DefaultThreadCurrentCulture = cultureInfo;
             CultureInfo.DefaultThreadCurrentUICulture = cultureInfo;
 
-            if (env.IsDevelopment())
+            //if (env.IsDevelopment())
+            if(true)
             {
                 app.UseDeveloperExceptionPage();
             }
