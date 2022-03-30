@@ -1,4 +1,4 @@
-﻿.body_menu, body {
+﻿.body_menu {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/image/menu_background.jpg") no-repeat center center fixed;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -11,13 +11,42 @@
     font-family: Arial;
     margin: 0;
     color:white;
-    background-attachment:scroll;
-    
+    background-attachment:scroll; 
+}
+
+.main_body {
+    background: url("/image/main_background.jpg") no-repeat center center fixed;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+}
+
+.main_menu {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.link_menu {
+    display:block;
+    text-align:center;
+    margin-top:15px;
+    font-family: Arial;
+    font-size: 15px;
+    color:red
 }
 
 .div_menu_title {
-    margin-top:25px;
-    margin-bottom:35px;
+    margin-top: 25px;
+    margin-bottom: 35px;
 }
 .h1_menu_title {
     color: white;
