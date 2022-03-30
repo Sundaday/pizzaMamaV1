@@ -1,9 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace pizza_mama.Models
 {
     public class Pizza
     {
+        [JsonIgnore]
         public int PizzaId { get; set; }
         [Display(Name = "Nom")]
         public string name { get; set; }

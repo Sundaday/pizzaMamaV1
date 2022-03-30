@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using pizza_mama.Models;
 using System.Collections.Generic;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -7,7 +8,7 @@ namespace pizza_mama.Controllers
 {
     [Route("[controller]")]
     [ApiController]
-    public class ApiController : ControllerBase
+    public class ApiController : Controller
     {
         // GET: api/<ApiController>
         [HttpGet]
@@ -17,10 +18,13 @@ namespace pizza_mama.Controllers
         }
 
         // GET api/<ApiController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpGet]
+        [Route("GetPizzas")]
+        public IActionResult GetPizza()
         {
-            return "value";
+            var pizza = new Pizza();
+
+            return Json(pizza);
         }
 
         // POST api/<ApiController>
