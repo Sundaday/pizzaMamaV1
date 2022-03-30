@@ -25,7 +25,7 @@
                         @pizza.name
                     </span>
                     <span class="list_menu_price">
-                        @pizza.price €
+                        @String.Format("{0:0.00}", pizza.price)€
                     </span>
                     <br/>
                     <span class="list_menu_ingre">
