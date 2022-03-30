@@ -1,5 +1,5 @@
 ﻿.body_menu, body {
-    background: url("/image/menu_background.jpg") no-repeat center center fixed;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/image/menu_background.jpg") no-repeat center center fixed;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -11,6 +11,8 @@
     font-family: Arial;
     margin: 0;
     color:white;
+    background-attachment:scroll;
+    
 }
 
 .div_menu_title {
@@ -48,16 +50,17 @@
 }
 
 .list_menu_ingre {
-    display:block;
+    display: block;
     color: #C8C8C8;
     font-size: 14px;
-    margin-top:5px
+    margin-top: 5px; 
+    width:320px;
 }
 
 .list_menu_vegan {
     display: inline-block;
     color:black;
-    margin-top: 7px;
+    margin-top: 9px;
     font-size: 12px;
     font-weight: bold;
     background-color: #DD7835;
