@@ -18,13 +18,6 @@ namespace pizza_mama.Controllers
             this.dataContext = dataContext;
         }
 
-        // GET: api/<ApiController>
-        [HttpGet]
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
-
         // GET api/<ApiController>/5
         [HttpGet]
         [Route("GetPizzas")]
@@ -33,24 +26,6 @@ namespace pizza_mama.Controllers
             //var pizza = new Pizza() { name = "pizza test", price = 0, vegan = false, ingredients = "test, test, test, test, test, test" };
             var pizza = dataContext.Pizzas.ToList();
             return Json(pizza);
-        }
-
-        // POST api/<ApiController>
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
-
-        // PUT api/<ApiController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<ApiController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
         }
     }
 }
